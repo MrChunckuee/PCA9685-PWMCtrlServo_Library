@@ -1,4 +1,4 @@
-# XC8-PCA9685Module-PWMCtrlServo
+# PCA9685Module PWMCtrlServo Library
 
 
 A C library designed for **PIC Microcontrollers** to interface with the **PCA9685** 16-channel, 12-bit PWM controller. This library is ideal for projects requiring precise control of multiple Servos via the I2C bus (maybe you can used for LED dimming).

@@ -24,8 +24,6 @@ The PCA9685 requires an I2C interface (SDA/SCL) and an optional Output Enable (O
 | **OE** | Output Enable | GND (Always ON) or Digital Pin |
 | **GND** | Ground | Common Ground |
 
-Example of connection with a PIC18F25K22:
-![PIC18F25K22 and PCA9685 Module](docs/PIC18F25K22_CTRLServo_PCA9685Module.png)
 
 ## Usage Example
 
@@ -62,8 +60,7 @@ void main(void) {
 
 ## Project Structure
 * `src/`: Core library files (`pca9685.c`, `pca9685.h`).
-* `examples/`: Ready-to-use project examples for MPLAB X.
-* `docs/`: Data-sheets and connection diagrams.
+* `examples/`: Project examples for MPLAB X.
 * `LICENSE`: MIT License.
 * `CHANGELOG`: History of updates and bug fixes.
 

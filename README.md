@@ -66,4 +66,4 @@ void main(void) {
 
 ## Documentation & Tutorial
 For a detailed implementation explanation and step-by-step guide, you can review the following examples:
-* [PIC18F25K22 & XC8: Control de servomotores con el modulo PCA9685](https://mrchunckuee.blogspot.com/2025/05/pic18f25k22-xc8-control-de-servomotores.html)
+* https://mrchunckuee.blogspot.com/2026/05/PCA9685-PWMCtrlServo-Library.html

@@ -1,10 +1,7 @@
 # PCA9685Module PWMCtrlServo Library
-
-
 A C library designed for **PIC Microcontrollers** to interface with the **PCA9685** 16-channel, 12-bit PWM controller. This library is ideal for projects requiring precise control of multiple Servos via the I2C bus (maybe you can used for LED dimming).
 
 ## Features
-
 * **16-Channel Control:** Individually manage up to 16 PWM outputs with a single I2C connection.
 * **12-bit Resolution:** Precise control with 4096 steps of PWM duty cycle.
 * **Servo Optimized:** Simplified functions to set pulse widths specifically for standard analog and digital servos.
@@ -12,7 +9,6 @@ A C library designed for **PIC Microcontrollers** to interface with the **PCA968
 * **I2C Addressable:** Easily handle multiple PCA9685 modules on the same bus using hardware address pins.
 
 ##  Hardware Connection
-
 The PCA9685 requires an I2C interface (SDA/SCL) and an optional Output Enable (OE) pin.
 
 | PCA9685 Pin | Function | PIC18 Connection (Example) |
@@ -26,7 +22,6 @@ The PCA9685 requires an I2C interface (SDA/SCL) and an optional Output Enable (O
 
 
 ## Usage Example
-
 This example demonstrates how to initialize the module and set a servo to a specific position.
 
 ```c
